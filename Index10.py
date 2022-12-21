@@ -6,4 +6,11 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    summa = 0
+
+    summa += int(s[0])
+    summa += int(s[1])
+    summa += int(s[2])
+    summa += int(s[3])
+    summa += int(s[4])
+    return summa

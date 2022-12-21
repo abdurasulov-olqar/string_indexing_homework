@@ -1,3 +1,5 @@
+import string
+
 def main(s):
     """
     a single character string is given. Convert it to int type, return -1 if not possible.
@@ -6,4 +8,9 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    ans = -1
+
+    if s in string.digits:
+        ans = int(s)
+    return ans
+

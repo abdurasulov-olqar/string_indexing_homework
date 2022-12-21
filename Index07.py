@@ -5,5 +5,9 @@ def main(s,n):
         s(str): parameter
     Returns:
         str: answer
-    """
-    return
+    """ 
+    ans = False
+
+    if n <= (len(s)-1):
+        ans = s[n] 
+    return ans
